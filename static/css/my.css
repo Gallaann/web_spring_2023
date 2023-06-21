@@ -2,6 +2,21 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+button {
+    font-size: 1rem;
+    border: 2px solid #6ab04c;
+    background: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(0.5rem);
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover{
+    background: #6ab04c;
+}
+
 .question {
     height: 160px;
     border: 2px solid black;
